@@ -8,5 +8,5 @@ app.get("/", (req,res)=>{
 });
 
 app.listen(3000, '0.0.0.0', (e) => {
-  console.log(`✅  Server running on port `${e}`);
+  console.log(`✅  Server running on port ${e}`);
 });
