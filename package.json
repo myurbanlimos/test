@@ -1,21 +1,24 @@
 {
-  "name": "urban-limo",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "urban limo servie",
-  "main": "./src/config/index.js",
+  "description": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/config/index.js",
-    "dev": "nodemon ./src/config/index.js"
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myurbanlimos/myurbanlimos.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myurbanlimos/myurbanlimos/issues"
+  },
+  "homepage": "https://github.com/myurbanlimos/myurbanlimos#readme",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "firebase": "^12.5.0",
-    "nodemailer": "^7.0.10",
-    "nodemon": "^3.1.10"
+    "express": "^5.1.0"
   }
 }
